@@ -1,0 +1,179 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery.js", "mag.js" ],
+      "matches": [ "*://*.magisto.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "sm.js" ],
+      "matches": [ "*://*.semrush.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "vb.js" ],
+      "matches": [ "*://*.videoblocks.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "nt.js" ],
+      "matches": [ "*://*.netflix.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "no.js" ],
+      "matches": [ "*://*.ninjaoutreach.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "cr.js" ],
+      "matches": [ "*://*.copywritely.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "pik.js" ],
+      "matches": [ "*://*.piktochart.com/*" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "js": [ "jquery.js", "gram.js" ],
+      "matches": [ "*://*.grammarly.com/*" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "js": [ "jquery.js", "cre.js" ],
+      "matches": [ "*://*.crello.com/*" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "js": [ "jquery.js", "pic.js" ],
+      "matches": [ "*://*.picmonkey.com/*" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "js": [ "jquery.js", "animoto.js" ],
+      "matches": [ "*://*.animoto.com/*" ],
+      "run_at": "document_end"
+   },{
+      "all_frames": true,
+      "js": [ "jquery.js", "rd.js" ],
+      "matches": [ "*://*.renderforest.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "in.js" ],
+      "matches": [ "*://*.indexification.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "abl.js" ],
+      "matches": [ "*://*.articlebuilder.net/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "ab.js" ],
+      "matches": [ "*://*.audioblocks.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "su.js" ],
+      "matches": [ "*://*.stockunlimited.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "pn.js" ],
+      "matches": [ "*://*.pngtree.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "sb.js" ],
+      "matches": [ "*://*.storyblocks.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "fr.js" ],
+      "matches": [ "*://*.freepik.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "wr.js" ],
+      "matches": [ "*://*.woorank.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "cnv.js" ],
+      "matches": [ "*://*.canva.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "sk.js" ],
+      "matches": [ "*://*.skillshare.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "ll.js" ],
+      "matches": [ "*://*.linkedin.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "mz.js" ],
+      "matches": [ "*://*.moz.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "al.js" ],
+      "matches": [ "*://*.alexa.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "en.js" ],
+      "matches": [ "*://*.envato.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "sp.js" ],
+      "matches": [ "*://*.seoprofiler.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "kr.js" ],
+      "matches": [ "*://*.keywordrevealer.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "sr.js" ],
+      "matches": [ "*://*.spinrewriter.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "jquery.js", "ah.js" ],
+      "matches": [ "http://*/*", "https://*/*", "*://*.ahrefs.com/keywords-explorer/" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "This is Spark SEO Tool's Official Extension to Access tools.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "21",
+   "name": "Spark SEO Tools",
+   "omnibox": {
+      "keyword": "session_paste"
+   },
+   "permissions": [ 
+      "*://*/*", "webRequest", "webRequestBlocking", "tabs", "management", "proxy", "contextMenus", "cookies", "clipboardWrite", "unlimitedStorage","storage", "<all_urls>", "clipboardRead", "activeTab"
+   ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
